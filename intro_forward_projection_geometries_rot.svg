@@ -1,0 +1,354 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="2c703fc30451f54625837fa9168642b03ebb9e25359254016d01a5cf007be10921f8f799c1b6ec1345104741526a96413d23db7bd01c176f0bbb6b96bdd1b66e" height="200" width="320">
+      <title>Click to pause/unpause, press and hold to scroll through animation</title>
+        <g>
+          <path d="M0,200 h0.0 v-5.0 h-0.0 Z" fill="black" stroke="none" fill-opacity="0.2"/>
+          <polyline points="16.00 20.00 14.40 6.28" stroke="rgb(255, 0, 0)" fill="none" stroke-width="1.00"/>
+<polyline points="16.00 20.00 30.20 18.63" stroke="rgb(0, 255, 0)" fill="none" stroke-width="1.00"/>
+<polyline points="16.00 20.00 17.65 23.88" stroke="rgb(0, 0, 255)" fill="none" stroke-width="1.00"/>
+<polyline points="146.91 131.71 162.03 152.74" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="187.38 124.75 205.02 144.73" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="146.45 91.73 162.11 110.49" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="188.32 85.55 206.70 103.34" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="146.91 131.71 187.38 124.75" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="162.03 152.74 205.02 144.73" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="146.45 91.73 188.32 85.55" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="162.11 110.49 206.70 103.34" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="146.91 131.71 146.45 91.73" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="162.03 152.74 162.11 110.49" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="187.38 124.75 188.32 85.55" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="205.02 144.73 206.70 103.34" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="-67.55 135.00" stroke="black" fill="none" stroke-width="0.20"/>
+<polyline points="338.05 72.61" stroke="black" fill="none" stroke-width="0.20"/>
+<polyline points="311.54 92.57 320.26 25.46 369.77 48.73 356.94 122.69 311.54 92.57" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="-67.55 135.00 311.54 92.57" stroke="black" fill="none" stroke-width="0.20"/>
+<polyline points="-67.55 135.00 320.26 25.46" stroke="black" fill="none" stroke-width="0.20"/>
+<polyline points="-67.55 135.00 356.94 122.69" stroke="black" fill="none" stroke-width="0.20"/>
+<polyline points="-67.55 135.00 369.77 48.73" stroke="black" fill="none" stroke-width="0.20"/>
+          <animate
+              attributeName="display"
+              values="none;inline;none;none"
+              keyTimes="0;0.0;0.1;1"
+              dur="3s"
+              begin="0s"
+              repeatCount="indefinite" />
+     </g>
+    
+<g>
+          <path d="M0,200 h32.0 v-5.0 h-32.0 Z" fill="black" stroke="none" fill-opacity="0.2"/>
+          <polyline points="16.00 20.00 14.40 6.28" stroke="rgb(255, 0, 0)" fill="none" stroke-width="1.00"/>
+<polyline points="16.00 20.00 30.20 18.63" stroke="rgb(0, 255, 0)" fill="none" stroke-width="1.00"/>
+<polyline points="16.00 20.00 17.65 23.88" stroke="rgb(0, 0, 255)" fill="none" stroke-width="1.00"/>
+<polyline points="156.58 136.75 182.58 165.07" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="190.30 115.73 217.08 142.36" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="153.51 109.94 181.12 138.88" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="189.43 88.36 217.92 115.44" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="156.58 136.75 190.30 115.73" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="182.58 165.07 217.08 142.36" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="153.51 109.94 189.43 88.36" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="181.12 138.88 217.92 115.44" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="156.58 136.75 153.51 109.94" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="182.58 165.07 181.12 138.88" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="190.30 115.73 189.43 88.36" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="217.08 142.36 217.92 115.44" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="-67.55 135.00" stroke="black" fill="none" stroke-width="0.20"/>
+<polyline points="338.05 72.61" stroke="black" fill="none" stroke-width="0.20"/>
+<polyline points="311.54 92.57 320.26 25.46 369.77 48.73 356.94 122.69 311.54 92.57" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="-67.55 135.00 311.54 92.57" stroke="black" fill="none" stroke-width="0.20"/>
+<polyline points="-67.55 135.00 320.26 25.46" stroke="black" fill="none" stroke-width="0.20"/>
+<polyline points="-67.55 135.00 356.94 122.69" stroke="black" fill="none" stroke-width="0.20"/>
+<polyline points="-67.55 135.00 369.77 48.73" stroke="black" fill="none" stroke-width="0.20"/>
+          <animate
+              attributeName="display"
+              values="none;inline;none;none"
+              keyTimes="0;0.1;0.2;1"
+              dur="3s"
+              begin="0s"
+              repeatCount="indefinite" />
+     </g>
+    
+<g>
+          <path d="M0,200 h64.0 v-5.0 h-64.0 Z" fill="black" stroke="none" fill-opacity="0.2"/>
+          <polyline points="16.00 20.00 14.40 6.28" stroke="rgb(255, 0, 0)" fill="none" stroke-width="1.00"/>
+<polyline points="16.00 20.00 30.20 18.63" stroke="rgb(0, 255, 0)" fill="none" stroke-width="1.00"/>
+<polyline points="16.00 20.00 17.65 23.88" stroke="rgb(0, 0, 255)" fill="none" stroke-width="1.00"/>
+<polyline points="160.05 78.16 187.46 107.48" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="189.37 53.43 216.66 81.94" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="162.91 64.52 192.50 95.95" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="194.39 38.16 223.84 68.66" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="160.05 78.16 189.37 53.43" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="187.46 107.48 216.66 81.94" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="162.91 64.52 194.39 38.16" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="192.50 95.95 223.84 68.66" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="160.05 78.16 162.91 64.52" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="187.46 107.48 192.50 95.95" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="189.37 53.43 194.39 38.16" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="216.66 81.94 223.84 68.66" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="-67.55 135.00" stroke="black" fill="none" stroke-width="0.20"/>
+<polyline points="338.05 72.61" stroke="black" fill="none" stroke-width="0.20"/>
+<polyline points="311.54 92.57 320.26 25.46 369.77 48.73 356.94 122.69 311.54 92.57" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="-67.55 135.00 311.54 92.57" stroke="black" fill="none" stroke-width="0.20"/>
+<polyline points="-67.55 135.00 320.26 25.46" stroke="black" fill="none" stroke-width="0.20"/>
+<polyline points="-67.55 135.00 356.94 122.69" stroke="black" fill="none" stroke-width="0.20"/>
+<polyline points="-67.55 135.00 369.77 48.73" stroke="black" fill="none" stroke-width="0.20"/>
+          <animate
+              attributeName="display"
+              values="none;inline;none;none"
+              keyTimes="0;0.2;0.30000000000000004;1"
+              dur="3s"
+              begin="0s"
+              repeatCount="indefinite" />
+     </g>
+    
+<g>
+          <path d="M0,200 h96.00000000000001 v-5.0 h-96.00000000000001 Z" fill="black" stroke="none" fill-opacity="0.2"/>
+          <polyline points="16.00 20.00 14.40 6.28" stroke="rgb(255, 0, 0)" fill="none" stroke-width="1.00"/>
+<polyline points="16.00 20.00 30.20 18.63" stroke="rgb(0, 255, 0)" fill="none" stroke-width="1.00"/>
+<polyline points="16.00 20.00 17.65 23.88" stroke="rgb(0, 0, 255)" fill="none" stroke-width="1.00"/>
+<polyline points="160.18 132.34 184.71 166.65" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="194.67 106.08 218.38 140.40" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="171.41 138.53 197.83 175.63" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="208.68 109.96 234.14 147.07" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="160.18 132.34 194.67 106.08" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="184.71 166.65 218.38 140.40" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="171.41 138.53 208.68 109.96" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="197.83 175.63 234.14 147.07" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="160.18 132.34 171.41 138.53" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="184.71 166.65 197.83 175.63" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="194.67 106.08 208.68 109.96" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="218.38 140.40 234.14 147.07" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="-67.55 135.00" stroke="black" fill="none" stroke-width="0.20"/>
+<polyline points="338.05 72.61" stroke="black" fill="none" stroke-width="0.20"/>
+<polyline points="311.54 92.57 320.26 25.46 369.77 48.73 356.94 122.69 311.54 92.57" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="-67.55 135.00 311.54 92.57" stroke="black" fill="none" stroke-width="0.20"/>
+<polyline points="-67.55 135.00 320.26 25.46" stroke="black" fill="none" stroke-width="0.20"/>
+<polyline points="-67.55 135.00 356.94 122.69" stroke="black" fill="none" stroke-width="0.20"/>
+<polyline points="-67.55 135.00 369.77 48.73" stroke="black" fill="none" stroke-width="0.20"/>
+          <animate
+              attributeName="display"
+              values="none;inline;none;none"
+              keyTimes="0;0.30000000000000004;0.4;1"
+              dur="3s"
+              begin="0s"
+              repeatCount="indefinite" />
+     </g>
+    
+<g>
+          <path d="M0,200 h128.0 v-5.0 h-128.0 Z" fill="black" stroke="none" fill-opacity="0.2"/>
+          <polyline points="16.00 20.00 14.40 6.28" stroke="rgb(255, 0, 0)" fill="none" stroke-width="1.00"/>
+<polyline points="16.00 20.00 30.20 18.63" stroke="rgb(0, 255, 0)" fill="none" stroke-width="1.00"/>
+<polyline points="16.00 20.00 17.65 23.88" stroke="rgb(0, 0, 255)" fill="none" stroke-width="1.00"/>
+<polyline points="141.45 119.48 154.20 152.76" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="177.57 102.74 189.09 136.07" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="154.38 134.46 167.61 169.58" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="192.89 116.31 204.71 151.50" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="141.45 119.48 177.57 102.74" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="154.20 152.76 189.09 136.07" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="154.38 134.46 192.89 116.31" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="167.61 169.58 204.71 151.50" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="141.45 119.48 154.38 134.46" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="154.20 152.76 167.61 169.58" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="177.57 102.74 192.89 116.31" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="189.09 136.07 204.71 151.50" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="-67.55 135.00" stroke="black" fill="none" stroke-width="0.20"/>
+<polyline points="338.05 72.61" stroke="black" fill="none" stroke-width="0.20"/>
+<polyline points="311.54 92.57 320.26 25.46 369.77 48.73 356.94 122.69 311.54 92.57" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="-67.55 135.00 311.54 92.57" stroke="black" fill="none" stroke-width="0.20"/>
+<polyline points="-67.55 135.00 320.26 25.46" stroke="black" fill="none" stroke-width="0.20"/>
+<polyline points="-67.55 135.00 356.94 122.69" stroke="black" fill="none" stroke-width="0.20"/>
+<polyline points="-67.55 135.00 369.77 48.73" stroke="black" fill="none" stroke-width="0.20"/>
+          <animate
+              attributeName="display"
+              values="none;inline;none;none"
+              keyTimes="0;0.4;0.5;1"
+              dur="3s"
+              begin="0s"
+              repeatCount="indefinite" />
+     </g>
+    
+<g>
+          <path d="M0,200 h160.0 v-5.0 h-160.0 Z" fill="black" stroke="none" fill-opacity="0.2"/>
+          <polyline points="16.00 20.00 14.40 6.28" stroke="rgb(255, 0, 0)" fill="none" stroke-width="1.00"/>
+<polyline points="16.00 20.00 30.20 18.63" stroke="rgb(0, 255, 0)" fill="none" stroke-width="1.00"/>
+<polyline points="16.00 20.00 17.65 23.88" stroke="rgb(0, 0, 255)" fill="none" stroke-width="1.00"/>
+<polyline points="172.35 70.09 171.96 107.30" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="209.99 64.95 208.46 101.48" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="188.32 85.55 187.38 124.75" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="228.13 79.68 225.90 118.13" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="172.35 70.09 209.99 64.95" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="171.96 107.30 208.46 101.48" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="188.32 85.55 228.13 79.68" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="187.38 124.75 225.90 118.13" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="172.35 70.09 188.32 85.55" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="171.96 107.30 187.38 124.75" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="209.99 64.95 228.13 79.68" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="208.46 101.48 225.90 118.13" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="-67.55 135.00" stroke="black" fill="none" stroke-width="0.20"/>
+<polyline points="338.05 72.61" stroke="black" fill="none" stroke-width="0.20"/>
+<polyline points="311.54 92.57 320.26 25.46 369.77 48.73 356.94 122.69 311.54 92.57" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="-67.55 135.00 311.54 92.57" stroke="black" fill="none" stroke-width="0.20"/>
+<polyline points="-67.55 135.00 320.26 25.46" stroke="black" fill="none" stroke-width="0.20"/>
+<polyline points="-67.55 135.00 356.94 122.69" stroke="black" fill="none" stroke-width="0.20"/>
+<polyline points="-67.55 135.00 369.77 48.73" stroke="black" fill="none" stroke-width="0.20"/>
+          <animate
+              attributeName="display"
+              values="none;inline;none;none"
+              keyTimes="0;0.5;0.6000000000000001;1"
+              dur="3s"
+              begin="0s"
+              repeatCount="indefinite" />
+     </g>
+    
+<g>
+          <path d="M0,200 h192.00000000000003 v-5.0 h-192.00000000000003 Z" fill="black" stroke="none" fill-opacity="0.2"/>
+          <polyline points="16.00 20.00 14.40 6.28" stroke="rgb(255, 0, 0)" fill="none" stroke-width="1.00"/>
+<polyline points="16.00 20.00 30.20 18.63" stroke="rgb(0, 255, 0)" fill="none" stroke-width="1.00"/>
+<polyline points="16.00 20.00 17.65 23.88" stroke="rgb(0, 0, 255)" fill="none" stroke-width="1.00"/>
+<polyline points="142.41 124.74 132.13 165.33" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="181.76 129.69 171.10 168.89" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="157.97 141.35 146.59 184.72" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="199.74 146.09 187.95 187.88" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="142.41 124.74 181.76 129.69" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="132.13 165.33 171.10 168.89" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="157.97 141.35 199.74 146.09" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="146.59 184.72 187.95 187.88" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="142.41 124.74 157.97 141.35" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="132.13 165.33 146.59 184.72" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="181.76 129.69 199.74 146.09" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="171.10 168.89 187.95 187.88" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="-67.55 135.00" stroke="black" fill="none" stroke-width="0.20"/>
+<polyline points="338.05 72.61" stroke="black" fill="none" stroke-width="0.20"/>
+<polyline points="311.54 92.57 320.26 25.46 369.77 48.73 356.94 122.69 311.54 92.57" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="-67.55 135.00 311.54 92.57" stroke="black" fill="none" stroke-width="0.20"/>
+<polyline points="-67.55 135.00 320.26 25.46" stroke="black" fill="none" stroke-width="0.20"/>
+<polyline points="-67.55 135.00 356.94 122.69" stroke="black" fill="none" stroke-width="0.20"/>
+<polyline points="-67.55 135.00 369.77 48.73" stroke="black" fill="none" stroke-width="0.20"/>
+          <animate
+              attributeName="display"
+              values="none;inline;none;none"
+              keyTimes="0;0.6000000000000001;0.7000000000000001;1"
+              dur="3s"
+              begin="0s"
+              repeatCount="indefinite" />
+     </g>
+    
+<g>
+          <path d="M0,200 h224.00000000000003 v-5.0 h-224.00000000000003 Z" fill="black" stroke="none" fill-opacity="0.2"/>
+          <polyline points="16.00 20.00 14.40 6.28" stroke="rgb(255, 0, 0)" fill="none" stroke-width="1.00"/>
+<polyline points="16.00 20.00 30.20 18.63" stroke="rgb(0, 255, 0)" fill="none" stroke-width="1.00"/>
+<polyline points="16.00 20.00 17.65 23.88" stroke="rgb(0, 0, 255)" fill="none" stroke-width="1.00"/>
+<polyline points="126.81 111.59 112.70 151.27" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="162.43 125.06 149.01 163.66" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="142.51 114.48 127.44 157.23" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="180.25 128.86 165.98 170.35" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="126.81 111.59 162.43 125.06" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="112.70 151.27 149.01 163.66" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="142.51 114.48 180.25 128.86" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="127.44 157.23 165.98 170.35" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="126.81 111.59 142.51 114.48" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="112.70 151.27 127.44 157.23" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="162.43 125.06 180.25 128.86" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="149.01 163.66 165.98 170.35" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="-67.55 135.00" stroke="black" fill="none" stroke-width="0.20"/>
+<polyline points="338.05 72.61" stroke="black" fill="none" stroke-width="0.20"/>
+<polyline points="311.54 92.57 320.26 25.46 369.77 48.73 356.94 122.69 311.54 92.57" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="-67.55 135.00 311.54 92.57" stroke="black" fill="none" stroke-width="0.20"/>
+<polyline points="-67.55 135.00 320.26 25.46" stroke="black" fill="none" stroke-width="0.20"/>
+<polyline points="-67.55 135.00 356.94 122.69" stroke="black" fill="none" stroke-width="0.20"/>
+<polyline points="-67.55 135.00 369.77 48.73" stroke="black" fill="none" stroke-width="0.20"/>
+          <animate
+              attributeName="display"
+              values="none;inline;none;none"
+              keyTimes="0;0.7000000000000001;0.8;1"
+              dur="3s"
+              begin="0s"
+              repeatCount="indefinite" />
+     </g>
+    
+<g>
+          <path d="M0,200 h256.0 v-5.0 h-256.0 Z" fill="black" stroke="none" fill-opacity="0.2"/>
+          <polyline points="16.00 20.00 14.40 6.28" stroke="rgb(255, 0, 0)" fill="none" stroke-width="1.00"/>
+<polyline points="16.00 20.00 30.20 18.63" stroke="rgb(0, 255, 0)" fill="none" stroke-width="1.00"/>
+<polyline points="16.00 20.00 17.65 23.88" stroke="rgb(0, 0, 255)" fill="none" stroke-width="1.00"/>
+<polyline points="173.24 97.10 164.47 132.67" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="207.12 112.23 199.70 147.51" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="192.63 82.77 183.98 120.24" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="228.25 99.20 221.11 136.38" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="173.24 97.10 207.12 112.23" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="164.47 132.67 199.70 147.51" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="192.63 82.77 228.25 99.20" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="183.98 120.24 221.11 136.38" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="173.24 97.10 192.63 82.77" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="164.47 132.67 183.98 120.24" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="207.12 112.23 228.25 99.20" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="199.70 147.51 221.11 136.38" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="-67.55 135.00" stroke="black" fill="none" stroke-width="0.20"/>
+<polyline points="338.05 72.61" stroke="black" fill="none" stroke-width="0.20"/>
+<polyline points="311.54 92.57 320.26 25.46 369.77 48.73 356.94 122.69 311.54 92.57" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="-67.55 135.00 311.54 92.57" stroke="black" fill="none" stroke-width="0.20"/>
+<polyline points="-67.55 135.00 320.26 25.46" stroke="black" fill="none" stroke-width="0.20"/>
+<polyline points="-67.55 135.00 356.94 122.69" stroke="black" fill="none" stroke-width="0.20"/>
+<polyline points="-67.55 135.00 369.77 48.73" stroke="black" fill="none" stroke-width="0.20"/>
+          <animate
+              attributeName="display"
+              values="none;inline;none;none"
+              keyTimes="0;0.8;0.9;1"
+              dur="3s"
+              begin="0s"
+              repeatCount="indefinite" />
+     </g>
+    
+<g>
+          <path d="M0,200 h288.0 v-5.0 h-288.0 Z" fill="black" stroke="none" fill-opacity="0.2"/>
+          <polyline points="16.00 20.00 14.40 6.28" stroke="rgb(255, 0, 0)" fill="none" stroke-width="1.00"/>
+<polyline points="16.00 20.00 30.20 18.63" stroke="rgb(0, 255, 0)" fill="none" stroke-width="1.00"/>
+<polyline points="16.00 20.00 17.65 23.88" stroke="rgb(0, 0, 255)" fill="none" stroke-width="1.00"/>
+<polyline points="146.50 94.77 147.22 127.40" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="188.91 104.31 192.33 136.86" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="161.04 60.88 162.81 93.14" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="205.50 71.66 210.26 103.93" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="146.50 94.77 188.91 104.31" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="147.22 127.40 192.33 136.86" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="161.04 60.88 205.50 71.66" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="162.81 93.14 210.26 103.93" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="146.50 94.77 161.04 60.88" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="147.22 127.40 162.81 93.14" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="188.91 104.31 205.50 71.66" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="192.33 136.86 210.26 103.93" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="-67.55 135.00" stroke="black" fill="none" stroke-width="0.20"/>
+<polyline points="338.05 72.61" stroke="black" fill="none" stroke-width="0.20"/>
+<polyline points="311.54 92.57 320.26 25.46 369.77 48.73 356.94 122.69 311.54 92.57" stroke="black" fill="none" stroke-width="1.00"/>
+<polyline points="-67.55 135.00 311.54 92.57" stroke="black" fill="none" stroke-width="0.20"/>
+<polyline points="-67.55 135.00 320.26 25.46" stroke="black" fill="none" stroke-width="0.20"/>
+<polyline points="-67.55 135.00 356.94 122.69" stroke="black" fill="none" stroke-width="0.20"/>
+<polyline points="-67.55 135.00 369.77 48.73" stroke="black" fill="none" stroke-width="0.20"/>
+          <animate
+              attributeName="display"
+              values="none;inline;none;none"
+              keyTimes="0;0.9;1.0;1"
+              dur="3s"
+              begin="0s"
+              repeatCount="indefinite" />
+     </g>
+    
+        
+      <script type="text/ecmascript"><![CDATA[
+          function mouse_move_2c703fc30451f54625837fa9168642b03ebb9e25359254016d01a5cf007be10921f8f799c1b6ec1345104741526a96413d23db7bd01c176f0bbb6b96bdd1b66e(evt) {
+              if (evt.buttons > 0) {
+                    var root = document.getElementById('2c703fc30451f54625837fa9168642b03ebb9e25359254016d01a5cf007be10921f8f799c1b6ec1345104741526a96413d23db7bd01c176f0bbb6b96bdd1b66e');
+                    root.pauseAnimations();
+                    var new_time = 3 * evt.layerX / evt.target.getBBox().width;
+                    root.setCurrentTime(new_time);
+              }
+          }
+          function on_click_2c703fc30451f54625837fa9168642b03ebb9e25359254016d01a5cf007be10921f8f799c1b6ec1345104741526a96413d23db7bd01c176f0bbb6b96bdd1b66e(evt) {
+              var root = document.getElementById('2c703fc30451f54625837fa9168642b03ebb9e25359254016d01a5cf007be10921f8f799c1b6ec1345104741526a96413d23db7bd01c176f0bbb6b96bdd1b66e');
+              //console.log(root);
+              root.animationsPaused() ? root.unpauseAnimations() : root.pauseAnimations();
+          }
+        ]]>
+      </script>
+
+    
+        <rect x="1" y="1" rx="5" ry="5" onmousemove='mouse_move_2c703fc30451f54625837fa9168642b03ebb9e25359254016d01a5cf007be10921f8f799c1b6ec1345104741526a96413d23db7bd01c176f0bbb6b96bdd1b66e(evt)' onclick='on_click_2c703fc30451f54625837fa9168642b03ebb9e25359254016d01a5cf007be10921f8f799c1b6ec1345104741526a96413d23db7bd01c176f0bbb6b96bdd1b66e(evt)' width="318" height="198" stroke="gray" fill="transparent" stroke-width="1"/>
+    </svg>
+    
