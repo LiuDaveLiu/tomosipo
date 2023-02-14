@@ -22,3 +22,6 @@ pg = ts.cone(angles=1, shape=(512, 512), size=(2, 2), src_orig_dist=5, src_det_d
 svg = ts.svg(vg_rot, pg)
 svg.save("intro_forward_projection_geometries_rot.svg")
 A = ts.operator(vg_rot, pg)
+#%%
+from 3D2D import ProjectionMatrix
+
