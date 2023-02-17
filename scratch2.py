@@ -1,7 +1,7 @@
 import tomosipo as ts
 import numpy as np
 from scipy import ndimage
-from scipy import misc
+from scipy import signal
 from medpy.io import load
 import matplotlib.pyplot as plt
 import torch
@@ -11,33 +11,22 @@ from registration import helper_functions
 from registration import normxcorr2
 from registration import DownweightingMap
 
-base_path='C:/Users/lliu10/OneDrive - Inside MD Anderson/siemenproject/data/'
-mage_data, image_header = load(base_path+'17_1.mha')
+base_path='C:/Users/lliu10/OneDrive - Inside MD Anderson/siemenproject/20230214_ChestPhantom/'
+mage_data, image_header = load(base_path+'6_1')
 
-data=np.load(base_path+'SiemensCiosSpin_Siemens.npz')
-fluro, fh = load(base_path+'43_1')
-#%% projection matrix
-K,R,t=ProjectionMatrix.decompose(data['ProjectionMatrices'][0])
-K1,R1,t1=ProjectionMatrix.decompose(data['ProjectionMatrices'][100])
+# fluro, fh = load(base_path+'43_1')
+#%% plot
+plt.hist(mage_data.flatten())
+#%%
+plt.imshow(mage_data[:, :, 0],cmap='gray',vmin=0, vmax=10000)
 #%% mage data threshold
 for i in range(np.shape(mage_data)[0]):
     mage_data[i,:,:]=helper_functions.thr_image(mage_data[i,:,:],0,1700)
 #%% mage data pad
-pad=128
-mage_data_pad=np.zeros((np.shape(mage_data)[0]+2*pad,np.shape(mage_data)[1]+2*pad,np.shape(mage_data)[2]+2*pad))
-for i in range(np.shape(mage_data)[0]):
-    mage_data_pad[i+pad,:,:]=helper_functions.add_pad(mage_data[i,:,:],pad,pad)
-for i in range(np.shape(mage_data_pad)[1]):
-    mage_data_pad[:,i,:]=helper_functions.add_pad(mage_data_pad[pad:-pad,i,:],0,pad)
+
 #%%
-R = ts.rotate(pos=0, axis=(1, 0, 0), angles=np.pi)
-# R1 = ts.rotate(pos=0, axis=(0, 1, 0), angles=angles)
-# R2 = ts.rotate(pos=0, axis=(0, 0, 1), angles=angles)
-# T = ts.translate((0, 0, 1))
-
-
 vg = ts.volume(shape=np.shape(mage_data), size=(1, 1, 1))
-pg = ts.cone(angles=9, shape=(512, 512), size=(2, 2), src_orig_dist=5, src_det_dist=10)
+pg = ts.cone(angles=9, shape=(512, 512), size=(1.5, 1.5), src_orig_dist=5, src_det_dist=10)
 # vg = ts.volume(shape=np.shape(mage_data_pad), size=(1, 1, 1))
 # pg = ts.cone(angles=9, shape=(512, 512), size=(1, 1), src_orig_dist=5, src_det_dist=10)
 svg = ts.svg(vg, pg)
@@ -50,7 +39,6 @@ y=A(mage_data)
 print("--- %s seconds ---" % (time.time() - start_time))
 #%% gpu
 mage_data_gpu=torch.from_numpy(mage_data)
-# mage_data_gpu=torch.from_numpy(mage_data_pad)
 start_time = time.time()
 y=A(mage_data_gpu)
 print("--- %s seconds ---" % (time.time() - start_time))
@@ -67,12 +55,5 @@ for i in range(9):
     plt.axis('off')
 #%%
 # cor = signal.correlate2d(sx, sy)
-cor = normxcorr2.normxcorr2(y[:, i, :], fluro,'same')
+cor = normxcorr2.normxcorr2(y[:, i, :], y[:, i, :], mode='same')
 #%%
-fluro2=misc.imresize(np.float32(np.mean(fluro,axis=2)),np.shape(y[:,i,:]))
-plt.imshow(fluro2,cmap=plt.cm.gray)
-plt.show()
-#%%
-img=DownweightingMap.downweightMap(fluro2[::2,::2])
-plt.imshow(img,cmap=plt.cm.gray)
-plt.axis('off')
