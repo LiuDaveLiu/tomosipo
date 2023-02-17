@@ -35,9 +35,8 @@ R = ts.rotate(pos=0, axis=(1, 0, 0), angles=np.pi)
 # R2 = ts.rotate(pos=0, axis=(0, 0, 1), angles=angles)
 # T = ts.translate((0, 0, 1))
 
-
 vg = ts.volume(shape=np.shape(mage_data), size=(1, 1, 1))
-pg = ts.cone(angles=9, shape=(512, 512), size=(2, 2), src_orig_dist=5, src_det_dist=10)
+pg = ts.cone(angles=1, shape=(512, 512), size=(2, 2), src_orig_dist=5, src_det_dist=10)
 # vg = ts.volume(shape=np.shape(mage_data_pad), size=(1, 1, 1))
 # pg = ts.cone(angles=9, shape=(512, 512), size=(1, 1), src_orig_dist=5, src_det_dist=10)
 svg = ts.svg(vg, pg)
@@ -54,6 +53,8 @@ mage_data_gpu=torch.from_numpy(mage_data)
 start_time = time.time()
 y=A(mage_data_gpu)
 print("--- %s seconds ---" % (time.time() - start_time))
+#%% similarity matrix
+
 #%%
 for i in range(9):
     plt.subplot(3, 3, i+1)
@@ -76,3 +77,18 @@ plt.show()
 img=DownweightingMap.downweightMap(fluro2[::2,::2])
 plt.imshow(img,cmap=plt.cm.gray)
 plt.axis('off')
+#%% optimize
+def quadratic(x1, x2):
+    return -(1-((x1 - 3) ** 2 + (10 * (x2 + 2)) ** 2))
+
+if __name__ == "__main__":
+    optimizer = CMA(mean=np.zeros(2), sigma=1.3)
+
+    for generation in range(50):
+        solutions = []
+        for _ in range(optimizer.population_size):
+            x = optimizer.ask()
+            value = quadratic(x[0], x[1])
+            solutions.append((x, value))
+            print(f"#{generation} {value} (x1={x[0]}, x2 = {x[1]})")
+        optimizer.tell(solutions)
