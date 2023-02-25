@@ -24,3 +24,11 @@ def getGradientMagnitude(im):
     dy = cv2.Sobel(im, ddepth, 0, 1)
     mag = cv2.magnitude(dx, dy)
     return mag
+
+
+def getGradientXY(im):
+    "Get magnitude of gradient for given image"
+    ddepth = cv2.CV_32F
+    dx = cv2.Sobel(im, ddepth, 1, 0)
+    dy = cv2.Sobel(im, ddepth, 0, 1)
+    return dx, dy

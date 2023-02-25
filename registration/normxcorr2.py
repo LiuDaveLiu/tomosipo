@@ -32,8 +32,8 @@ def normxcorr2(template, image, mode="full"):
             len([i for i in range(np.ndim(template)) if template.shape[i] > image.shape[i]]) > 0:
         print("normxcorr2: TEMPLATE larger than IMG. Arguments may be swapped.")
 
-    # template = template - np.mean(template) # no mean subtraction
-    # image = image - np.mean(image)
+    template = template - np.mean(template) # no mean subtraction
+    image = image - np.mean(image)
 
     a1 = np.ones(template.shape)
     # Faster to flip up down and left right then use fftconvolve instead of scipy's correlate
