@@ -75,8 +75,8 @@ for i in range(9):
     plt.imshow(y,cmap='gray') # first projection
     plt.title(np.round(gc))
     plt.axis('off')
-#%% gradient image
-for i in range(9):
+# gradient image
+
     img=DownweightingMap.downweightMap(y[:, i, :])
     plt.subplot(3, 3, i+1)
     plt.imshow(img,cmap=plt.cm.gray)
